@@ -3,24 +3,19 @@ project:
   output-dir: docs
 
 book:
-  title: "COMP/STAT112 Notebook"
-  author: "Your Name Here"
-  date: "Date Here"
+  title: "Write Your Name Here"
+  author: "Write your email here"
+  date: last-modified
+  date-format: full
   reader-mode: true
   
   chapters:
     - index.qmd
 
-    - part: activities/README.qmd
+    - part: homeworks/README.qmd
       chapters: 
-      - activities/activity-01.qmd
-      - activities/activity-02.qmd
-      - activities/activity-03.qmd
-    
-    - part: notes/README.qmd
-      chapters: 
-      - notes/note-01.qmd
-      - notes/note-02.qmd
+      - homeworks/homework-00a.qmd
+      - homeworks/homework-00b.qmd
 
 format:
   html:
