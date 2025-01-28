@@ -2,29 +2,53 @@ project:
   type: book
   output-dir: docs
 
+
+
 book:
-  title: "Write Your Name Here"
-  author: "Write your email here"
-  date: last-modified
-  date-format: full
+  title: "COMP/STAT112 HWs"
+  author: "Your Name Here"
+  date: today
   reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
   
+  sidebar:
+    title: "Your Name Here"
+    collapse-level: 2
+    style: "docked"
+    pinned: true
+    search: true
+
   chapters:
     - index.qmd
+    - hws/hw0.qmd 
 
-    - part: homeworks/README.qmd
-      chapters: 
-      - homeworks/homework-00a.qmd
-      - homeworks/homework-00b.qmd
+
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    css: style/custom.css
     code-copy: true
+    code-link: true
     code-line-numbers: true
     code-tools: true
+
+
 
 execute:
   cache: false
   freeze: auto
+
+
+
+editor: 
+  markdown:
+    wrap: sentence # Forces each sentence to be on its own line in source markdown, however, it doesn't affect how it is rendered
+
