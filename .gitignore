@@ -2,7 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 
 /.quarto/
-
-.DS_Store
+/docs
+/_site
+/*_files/
+/site_libs
+*.html
+_freeze/
