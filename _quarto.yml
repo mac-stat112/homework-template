@@ -38,7 +38,7 @@ format:
     code-copy: true
     code-link: true
     code-line-numbers: true
-    code-tools: true
+    # code-tools: true
 
 
 

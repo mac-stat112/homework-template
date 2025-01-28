@@ -1,5 +1,12 @@
 ---
 title: "Homework 0"
+execute: 
+  echo: false
 ---
 
 This is a sample homework to show how a Quarto book is organized.
+
+```{r}
+1 + 2
+```
+
