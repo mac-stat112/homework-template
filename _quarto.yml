@@ -22,7 +22,7 @@ book:
 
   chapters:
     - index.qmd
-    - hws/hw0.qmd 
+    - hw/hw0.qmd 
 
 
 
