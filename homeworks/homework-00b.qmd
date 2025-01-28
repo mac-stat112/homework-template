@@ -1,5 +1,0 @@
----
-title: "Homework 00b"
----
-
-This is test homework 00b to show how this Quarto book is organized.

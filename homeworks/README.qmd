@@ -1,5 +1,0 @@
----
-title: "Homeworks"
----
-
-All homeworks live here.
